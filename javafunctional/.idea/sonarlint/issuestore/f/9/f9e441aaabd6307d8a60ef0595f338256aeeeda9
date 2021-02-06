@@ -1,0 +1,17 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÖÌ©ë
+N
+java:S1612&",Replace this lambda with a method reference.(‘ë¤”øÿÿÿÿ8±öæµ÷.
+[
+java:S1854(">Remove this useless assignment to local variable "personList".(£ˆðÆ8ö¿ïµ÷.
+N
+java:S1128",Remove this unused import 'imperative.Main'.(÷õäŒüÿÿÿÿ8—¯Ùµ÷.
+}
+java:S4276&"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(‘ë¤”øÿÿÿÿ8±öæµ÷.
+Y
+java:S1128"7Remove this unused import 'java.util.stream.Collector'.(ß‹ÎÓøÿÿÿÿ8€…ëµ÷.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8É­ýµ÷.
+L
+java:S1481("/Remove this unused "personList" local variable.(£ˆðÆ8ö¿ïµ÷.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹¦…‡úÿÿÿÿ8ü–òµ÷.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(ø– À8½ÎŽ¶÷.
