@@ -11,52 +11,26 @@ import java.util.stream.Collectors;
 public class _Stream {
     public static void main(String[] args) {
 
-        List<Person> people = Arrays.asList(
-                new Person("Jhon", Gender.MALE),
-                new Person("Maria", Gender.FEMALE),
-                new Person("Aisha", Gender.FEMALE),
-                new Person("Alex", Gender.MALE),
-                new Person("Alice", Gender.FEMALE)
-        );
-
-        people.stream()
-                .map(person -> person.gender)
+        Person.getPeople().stream()
+                .map(person -> person.getGender())
                 .collect(Collectors.toSet())
                 .forEach(System.out::println);
 
 
-        people.stream()
-                .map(person -> person.name)
+        Person.getPeople().stream()
+                .map(person -> person.getName())
                 .mapToInt(String::length)
                 .forEach(System.out::println);
 
-        Boolean containsOnlyFemales = people.stream()
-                .allMatch(person -> person.gender.equals(Gender.FEMALE));
+        Boolean containsOnlyFemales = Person.getPeople().stream()
+                .allMatch(person -> person.getGender().equals(Gender.FEMALE));
         System.out.println(containsOnlyFemales);
 
 
         Function<String, String> toUpperName = (String name) -> name.toUpperCase();
 
-        List<Person> personList = people.stream()
-                .map(item -> new Person(toUpperName.apply(item.name), item.gender)).collect(Collectors.toList());
-    }
-
-    static class Person {
-        private final String name;
-        private final Gender gender;
-
-        Person(String name, Gender gender) {
-            this.name = name;
-            this.gender = gender;
-        }
-
-        @Override
-        public String toString() {
-            return "Person{" +
-                    "name='" + name + '\'' +
-                    ", gender=" + gender +
-                    '}';
-        }
+        List<Person> personList = Person.getPeople().stream()
+                .map(item -> new Person(toUpperName.apply(item.getName()), item.getGender())).collect(Collectors.toList());
     }
 
     enum Gender {
