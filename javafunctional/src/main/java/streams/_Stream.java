@@ -30,7 +30,6 @@ public class _Stream {
                 .mapToInt(String::length)
                 .forEach(System.out::println);
 
-
         Boolean containsOnlyFemales = people.stream()
                 .allMatch(person -> person.gender.equals(Gender.FEMALE));
         System.out.println(containsOnlyFemales);
