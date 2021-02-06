@@ -8,6 +8,8 @@ public class _Supplier {
     public static void main(String[] args) {
         System.out.println(getDBConnectionUrl());
         System.out.println(getDBConnectionUrlSupplier.get());
+
+        System.out.println(getDBConnectionUrlsSupplier.get());
     }
 
     static String getDBConnectionUrl() {
