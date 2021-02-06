@@ -1,0 +1,15 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ëİ«üúÿÿÿÿ8¹«óö.
+z
+java:S4276+"]Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Integer>'(Íõ£Ú8ÜÏáóö.
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(Îú8Å²™óö.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(İ£«€8ò—Ëóö.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Áï ½8ùƒèóö.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÑÔ¸ìûÿÿÿÿ8°¼¼óö.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ó…Ûßıÿÿÿÿ
+~
+java:S4276"\Refactor this code to use the more specialised Functional Interface 'UnaryOperator<Integer>'(–ê¨ıÿÿÿÿ8±ä¹óö.
+x
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(¹Ù„•ıÿÿÿÿ8ª»©óö.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(µ•8”òíóö.

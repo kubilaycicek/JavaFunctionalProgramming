@@ -17,13 +17,10 @@ public class _Function {
 
         System.out.println(addBy1AndThenMultiplyBy10.apply(4));
 
-
         // BiFunction takes 2 argument and produces 1 result
         System.out.println(incrementByOneAndMultiply(4, 100));
 
         System.out.println(incrementByOneAndMultiplyBiFunction.apply(4,100));
-
-
     }
 
     static Function<Integer, Integer> incrementByOneFunction = number -> number + 1;
